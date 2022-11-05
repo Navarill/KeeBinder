@@ -65,6 +65,24 @@
             <Action name="KEEBINDER_8006">
                 <Down>UseCollectible(COLLECTIBLES.ANTIQUARIANS_EYE)</Down>
             </Action>
+            <Action name="KEEBINDER_1168">
+                <Down>UseCollectible(COLLECTIBLES.BREDAS_BOTTOMLESS_MEAD_MUG)</Down>
+            </Action>
+            <Action name="KEEBINDER_602">
+                <Down>UseCollectible(COLLECTIBLES.FIRE_ROCK)</Down>
+            </Action>
+            <Action name="KEEBINDER_10287">
+                <Down>UseCollectible(COLLECTIBLES.JUBILEE_CAKE_2022)</Down>
+            </Action>
+            <Action name="KEEBINDER_1167">
+                <Down>UseCollectible(COLLECTIBLES.PIE_OF_MISRULE)</Down>
+            </Action>
+            <Action name="KEEBINDER_8883">
+                <Down>UseCollectible(COLLECTIBLES.RELIC_OF_THE_SENTINEL)</Down>
+            </Action>
+            <Action name="KEEBINDER_479">
+                <Down>UseCollectible(COLLECTIBLES.WITCHMOTHERS_WHISTLE)</Down>
+            </Action>
         </Category>
     </Layer>
 </Bindings>
