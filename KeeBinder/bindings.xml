@@ -1,0 +1,51 @@
+<Bindings>
+    <Layer name="SI_KEYBINDINGS_LAYER_GENERAL">
+        <Category name="Assistants">
+            <Action name="KEEBINDER_10617">
+                <Down>UseCollectible(ASSISTANTS.ADERENE_FARGRAVE_DREGS_DEALER)</Down>
+            </Action>
+            <Action name="KEEBINDER_396">
+                <Down>UseCollectible(ASSISTANTS.ALLARIA_ERWEN_THE_EXPORTER)</Down>
+            </Action>
+            <Action name="KEEBINDER_8994">
+                <Down>UseCollectible(ASSISTANTS.BARON_JANGLEPLUME_THE_BANKER)</Down>
+            </Action>
+            <Action name="KEEBINDER_397">
+                <Down>UseCollectible(ASSISTANTS.CASSUS_ANDRONICUS_THE_MERCENARY)</Down>
+            </Action>
+            <Action name="KEEBINDER_6376">
+                <Down>UseCollectible(ASSISTANTS.EZABI_THE_BANKER)</Down>
+            </Action>
+            <Action name="KEEBINDER_9744">
+                <Down>UseCollectible(ASSISTANTS.FACTOTUM_COMMERCE_DELEGATE)</Down>
+            </Action>
+            <Action name="KEEBINDER_9743">
+                <Down>UseCollectible(ASSISTANTS.FACTOTUM_PROPERTY_STEWARD)</Down>
+            </Action>
+            <Action name="KEEBINDER_6378">
+                <Down>UseCollectible(ASSISTANTS.FEZEZ_THE_MERCHANT)</Down>
+            </Action>
+            <Action name="KEEBINDER_9745">
+                <Down>UseCollectible(ASSISTANTS.GHRASHAROG_ARMORY_ASSISTANT)</Down>
+            </Action>
+            <Action name="KEEBINDER_10184">
+                <Down>UseCollectible(ASSISTANTS.GILADIL_THE_RAGPICKER)</Down>
+            </Action>
+            <Action name="KEEBINDER_300">
+                <Down>UseCollectible(ASSISTANTS.NUZIMEH_THE_MERCHANT)</Down>
+            </Action>
+            <Action name="KEEBINDER_8995">
+                <Down>UseCollectible(ASSISTANTS.PEDDLER_OF_PRIZES_THE_MERCHANT)</Down>
+            </Action>
+            <Action name="KEEBINDER_301">
+                <Down>UseCollectible(ASSISTANTS.PIRHARRI_THE_SMUGGLER)</Down>
+            </Action>
+            <Action name="KEEBINDER_267">
+                <Down>UseCollectible(ASSISTANTS.THYSIS_ANDROMO_THE_BANKER)</Down>
+            </Action>
+            <Action name="KEEBINDER_10618">
+                <Down>UseCollectible(ASSISTANTS.ZUGOTH_ARMORY_ADVISOR)</Down>
+            </Action>
+        </Category>
+    </Layer>
+</Bindings>
