@@ -11,6 +11,7 @@
 ## Version: 1.0.0
 ## APIVersion: 101036
 ## AddOnVersion: 10000
+## OptionalDependsOn: VotansKeybinder
 
 KeeBinder.lua
 bindings.xml

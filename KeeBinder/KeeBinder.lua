@@ -4,8 +4,11 @@
 		License: (to be determined)
  ]]
 
-ASSISTANTS =
+local KeeBinder = "KeeBinder"
+
+COLLECTIBLES =
 {
+    -- Assistants
     ADERENE_FARGRAVE_DREGS_DEALER = 10617,
     ALLARIA_ERWEN_THE_EXPORTER = 396,
     BARON_JANGLEPLUME_THE_BANKER = 8994,
@@ -21,20 +24,25 @@ ASSISTANTS =
     PIRHARRI_THE_SMUGGLER = 301,
     THYSIS_ANDROMO_THE_BANKER = 267,
     ZUGOTH_ARMORY_ADVISOR = 10618,
-}
 
---[[
-COMPANIONS =
-{
+    -- Companions
     BASTIAN_HALLIX = 9245,
     EMBER = 9911,
     ISOBEL_VELOISE = 9912,
     MIRI_ELENDIS = 9353,
+
+    -- Tools
+    ANTIQUARIANS_EYE = 8006,
+    --BREDAS_BOTTOMLESS_MEAD_MUG = 1168,
+    --FIRE_ROCK = 602,
+    --JUBILEE_CAKE_2022 = 10287,
+    --PIE_OF_MISRULE = 1167,
+    --RELIC_OF_THE_SENTINEL = 8883,
+    --WITCHMOTHERS_WHISTLE = 479,
 }
-]]
 
 local function CreateBindings()
-    for _, collectibleId in pairs(ASSISTANTS) do
+    for _, collectibleId in pairs(COLLECTIBLES) do
         local name, _, _, _, unlocked = GetCollectibleInfo(collectibleId)
         if unlocked then
             local stringId = "SI_BINDING_NAME_KEEBINDER_" .. collectibleId
