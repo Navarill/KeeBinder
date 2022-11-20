@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="LUA ESO 101035" jdkType="Lua SDK" />
+    <orderEntry type="jdk" jdkName="Lua ESO Live" jdkType="Lua SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
